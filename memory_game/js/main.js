@@ -56,7 +56,7 @@ const createBoard = function () {
 		cardElement.setAttribute('src', 'images/back.png')
 		cardElement.setAttribute('data-id', i)
 		cardElement.addEventListener('click', flipCard)
-		cardLayout.appendChild(cardElement)
+		document.getElementById('game-board').appendChild(cardElement)
 	}
 }
 
